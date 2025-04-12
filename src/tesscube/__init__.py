@@ -70,7 +70,7 @@ def check_package_cache_dir(package_cache_dir):
 
 
 _package_cache_dir = check_package_cache_dir(
-    os.path.join(os.path.expanduser("~"), ".tesscube")
+    os.path.join(os.path.expanduser("/tmp/"), ".tesscube")
 )
 
 log = get_logger()
